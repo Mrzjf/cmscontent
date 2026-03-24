@@ -1,13 +1,11 @@
 # CmsContent
 
-基于 Nuxt 3 + Vue 3 + Element Plus + MongoDB 的 CMS 系统
+基于 Nuxt 3 + Vue 3 的 CMS 系统
 
 ## 技术栈
 
 - **前端框架**: Vue 3 + Nuxt 3 (SSR)
-- **UI 组件库**: Element Plus
 - **服务端**: Nitro (Nuxt 3 内置)
-- **数据库**: MongoDB + Mongoose
 - **多语言**: @nuxtjs/i18n
 
 ## 快速开始
@@ -23,7 +21,6 @@ npm install
 复制 `.env.example` 到 `.env` 并修改配置：
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/cmscontent
 NUXT_PORT=3000
 ```
 
@@ -66,19 +63,10 @@ cmsContent/
 ## 功能特性
 
 - ✅ SSR 服务端渲染
-- ✅ Element Plus UI 组件
-- ✅ 多语言支持 (i18n)
-- ✅ MongoDB 数据库连接
-- 🚧 用户认证
-- 🚧 内容管理
-- 🚧 媒体库
 
 ## 开发计划
 
 1. **第一阶段**: 跑通 SSR Demo ✅
-2. **第二阶段**: 用户认证系统
-3. **第三阶段**: 内容管理功能
-4. **第四阶段**: 媒体库功能
 
 ## License
 

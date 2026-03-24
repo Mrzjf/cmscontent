@@ -9,7 +9,7 @@
 ## 技术栈
 - **前端框架**: Vue 3.4 + Nuxt 3.10.3
 - **服务端**: Nitro (Nuxt 3 内置)
-- **UI 组件库**: Element Plus 2.5.0
+- **样式**: Tailwind CSS (可选)
 - **多语言**: @nuxtjs/i18n 8.3.0
 - **数据库**: MongoDB (计划中)
 
@@ -36,7 +36,6 @@ cmsContent/
 
 ### 已实现 ✅
 - SSR 服务端渲染
-- Element Plus UI 组件集成
 - 多语言支持 (i18n) - 支持中文、英文
 - 基础页面结构 (首页、关于页)
 - SEO 基础配置 (meta tags, title template)
@@ -51,7 +50,7 @@ cmsContent/
 ## 开发阶段
 
 ### 第一阶段：SSR Demo 跑通 ✅
-- 目标：验证 Nuxt 3 + Element Plus + i18n 的基础架构
+- 目标：验证 Nuxt 3 + i18n 的基础架构
 - 状态：已完成
 
 ### 第二阶段：数据库与 API (计划中)
@@ -137,7 +136,5 @@ NUXT_PORT=3000
 |------|------|
 | nuxt | 3.10.3 |
 | vue | ^3.4.0 |
-| element-plus | ^2.5.0 |
-| @element-plus/nuxt | ^1.0.10 |
 | @nuxtjs/i18n | ^8.3.0 |
 | typescript | ^5.3.0 |

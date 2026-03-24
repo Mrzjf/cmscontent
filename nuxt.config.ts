@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ["@element-plus/nuxt", "@nuxtjs/i18n"],
+  modules: ["@nuxtjs/i18n"],
   i18n: {
     locales: [
       {
