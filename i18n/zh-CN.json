@@ -1,0 +1,11 @@
+{
+  "welcome": "欢迎使用 CmsContent",
+  "description": "这是一个基于 Nuxt 3 的 CMS 系统",
+  "home": "首页",
+  "about": "关于",
+  "language": "语言",
+  "switchLanguage": "切换语言",
+  "loading": "加载中...",
+  "error": "出错了",
+  "success": "成功"
+}
