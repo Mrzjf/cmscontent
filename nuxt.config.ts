@@ -1,10 +1,12 @@
 export default defineNuxtConfig({
+  modules: ["@pinia/nuxt"],
+  css: ["normalize.css"],
   app: {
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: "CmsContent",
-      titleTemplate: "%s | CmsContent",
+      titleTemplate: "风安电竞 - PUBG",
       meta: [
         {
           name: "description",
