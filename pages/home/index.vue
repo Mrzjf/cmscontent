@@ -37,52 +37,41 @@
 const { t, currentLang, toggleLang } = useI18n();
 </script>
 
-<style scoped>
-.home-test {
-  padding: 20px;
-  max-width: 600px;
-  margin: 0 auto;
-}
+<style scoped lang="stylus">
+@import '../../assets/styles/variables.styl'
+@import '../../assets/styles/mixins.styl'
 
-h1 {
-  color: #333;
-  margin-bottom: 10px;
-}
+.home-test
+  padding $spacing-md
+  center-container($max-width-sm)
 
-.lang-switcher {
-  margin: 20px 0;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
+h1
+  color $text-color
+  margin-bottom $spacing-xs
 
-button {
-  padding: 8px 16px;
-  background: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+.lang-switcher
+  margin $spacing-md 0
+  flex-center()
+  gap $spacing-sm
 
-button:hover {
-  background: #0056b3;
-}
+button
+  button-base()
+  background $primary-color
+  color white
 
-.test-items {
-  margin-top: 30px;
-}
+  &:hover
+    background $primary-hover
 
-.item {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
-}
+.test-items
+  margin-top $spacing-lg
 
-.success {
-  color: green;
-}
+.item
+  padding $spacing-xs
+  border-bottom 1px solid $border-color
 
-.error {
-  color: red;
-}
+.success
+  color $success-color
+
+.error
+  color $error-color
 </style>

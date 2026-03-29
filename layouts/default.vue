@@ -10,18 +10,17 @@
 
 <script setup lang="ts"></script>
 
-<style scoped>
-.layout-wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+<style scoped lang="stylus">
+@import '../assets/styles/variables.styl'
+@import '../assets/styles/mixins.styl'
 
-.main-content {
-  flex: 1;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
+.layout-wrapper
+  display flex
+  flex-direction column
+  min-height 100vh
+
+.main-content
+  flex 1
+  center-container($max-width-lg)
+  padding $spacing-xl 1rem
 </style>

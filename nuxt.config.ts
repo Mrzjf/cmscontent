@@ -27,5 +27,5 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },
-  compatibilityDate: "2026-03-24",
+  compatibilityDate: "2026-03-29",
 });
