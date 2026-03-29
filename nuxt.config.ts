@@ -1,23 +1,4 @@
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/i18n"],
-  i18n: {
-    locales: [
-      {
-        code: "zh-CN",
-        name: "简体中文",
-        file: "zh-CN.json",
-      },
-      {
-        code: "en",
-        name: "English",
-        file: "en.json",
-      },
-    ],
-    defaultLocale: "zh-CN",
-    lazy: true,
-    langDir: "i18n/",
-    strategy: "no_prefix",
-  },
   app: {
     head: {
       charset: "utf-8",
